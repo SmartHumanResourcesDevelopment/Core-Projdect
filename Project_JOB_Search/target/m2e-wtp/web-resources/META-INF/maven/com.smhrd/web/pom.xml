@@ -114,13 +114,15 @@
 	</dependencies>
 	<build>
 		<resources>
-	    <resource>
-	      <directory>src/main/resources</directory>
-	      <includes>
-	        <include>**/*.xml</include>
-	      </includes>
-	    </resource>
-	  </resources>
+    <resource>
+      <directory>src/main/resources</directory>
+      <includes>
+        <include>**/*.xml</include>
+        <include>**/*.properties</include>
+        <!-- 필요한 다른 리소스 확장자도 포함 -->
+      </includes>
+    </resource>
+  </resources>
 		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
