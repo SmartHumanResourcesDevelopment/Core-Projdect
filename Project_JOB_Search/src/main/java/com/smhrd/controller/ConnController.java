@@ -27,7 +27,7 @@ public class ConnController {
 		int num2 = vo.getIn_num2();
 
 		// FastAPI로 JSON POST 요청.
-		String url = "http://192.168.219.234:9001/calculate";
+		String url = "http://49.50.134.116:9001/calculate";
 
 		RestTemplate restTemplate = new RestTemplate();
 		HttpHeaders headers = new HttpHeaders();
