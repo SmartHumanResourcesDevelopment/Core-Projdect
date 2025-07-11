@@ -11,9 +11,9 @@
     <!-- HikariCP 설정 -->
     <bean id="HikariConfig" class="com.zaxxer.hikari.HikariConfig">
         <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
-        <property name="jdbcUrl" value="jdbc:oracle:thin:@project-db-campus.smhrd.com:1524:xe"/>
-        <property name="username" value="navercloudtest"/>
-        <property name="password" value="navercloudtest"/>
+        <property name="jdbcUrl" value="jdbc:oracle:thin:@project-db-campus.smhrd.com:1523:xe"/>
+        <property name="username" value="hapjeong_24SW_DS_p2_1"/>
+        <property name="password" value="smhrd1"/>
     </bean>
 
     <bean id="HikariDataSource" class="com.zaxxer.hikari.HikariDataSource">
